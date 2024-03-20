@@ -12,7 +12,7 @@ const introdata = {
         third: "I develop mobile apps",
     },
     description: "Hi, I'm Gautam Kumar Pandey, currently pursuing my Bachelors in Technology from Muzaffarpur Institute of Technology. I'm specializing in Information Technology. My skills include Java, Javascript, Html, Css, Node.js Express, git & github and mongodb. In my most recent role as a software developer intern at deep thought, I had the opportunity to work on the backend of an e-commerce web application, utilizing technologies such as Node.js, Express.js and mongodb. My responsibilities include creating order apis, wishlist apis payment integration using Razorpay, development of the admin panel using React.js, and deploying the application on Aws S3. My notable projects include the development of the Junoon website, a web app designed for the cultural fest of MIT. I created the MARK MY ATTENDANCE web app, which efficiently tracks the attendance of thousands of engineering and polytechnic students in Bihar.",
-    your_img_url: "https://i.imgur.com/28cE8YG.jpeg",
+    your_img_url: "https://i.imgur.com/nDwP1py.jpeg",
 };
 
 const dataabout = {
