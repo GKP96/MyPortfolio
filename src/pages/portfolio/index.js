@@ -11,7 +11,7 @@ export const Portfolio = () => {
         <Helmet>
           <meta charSet="utf-8" />
           <title> Portfolio | {meta.title} </title>{" "}
-          <meta name="description" content={meta.description} />
+          <meta name="description intro_description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
@@ -22,7 +22,7 @@ export const Portfolio = () => {
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
-              <div key={i} className="po_item">
+              <div key={i} className="po_item" >
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p>{data.description}</p>

@@ -98,3 +98,7 @@
         transform: translateZ(0);
     }
 }
+.intro_description{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}

@@ -78,3 +78,7 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+.intro_description{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}

@@ -48,7 +48,7 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Failed to send!,${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -67,11 +67,13 @@ export const ContactUs = () => {
   return (
     <HelmetProvider>
       <Container>
+        <div className="intro_description">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{meta.title} | Contact</title>
-          <meta name="description" content={meta.description} />
+          <meta name="description " content={meta.description} />
         </Helmet>
+        </div>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
             <h1 className="display-4 mb-4">Contact Me</h1>
